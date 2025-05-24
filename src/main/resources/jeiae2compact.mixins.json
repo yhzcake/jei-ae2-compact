@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yshs.jeiae2compact.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "jeiae2compact.refmap.json",
+  "mixins": [
+    "MEStorageScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
